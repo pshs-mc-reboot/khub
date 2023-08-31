@@ -5,3 +5,5 @@
 ## Getting comfortable with the command line
 
 ## Getting to know Git
+
+### Adding SSH-keys to your account

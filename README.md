@@ -60,3 +60,11 @@ ts-node filename.ts
 # Run a .py file
 python3.10 filename.py
 ```
+
+## Contributing to the repository
+
+Assuming that you've done the steps above, then we'll need to migrate from HTTPS to SSH. Run the command below (assuming that you have [set up and added your SSH-keys using this guide](/first-quarter/README.md#adding-ssh-keys-to-your-account)):
+
+```bash
+git remote set-url origin git@github.com:pshs-mc-reboot/khub.git
+```
