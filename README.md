@@ -8,6 +8,7 @@ We're going to assume that you are using a Unix-esque environment. If you're usi
 
 While we refer to [github](https://github.com) a number of times, github is only an intermediary for [git](https://git-scm.com). We tackle everything about git [in this guide](first-quarter/README.md#getting-to-know-git), and encourage you to already have read the preceeding topics before reading it.
 
+- Open a terminal to your Unix-esque environment.
 - Ensure that you have updated your operating system. Follow the commands below:
 
 ```bash
