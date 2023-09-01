@@ -12,6 +12,8 @@ There are a few factors to think about when deciding which project management me
 - Stakeholders
 - Team competencies
 
+[idk how to write this part ^^]
+
 ## Agile project management methodology
 
 Unlike other project management methodologies, agile project management focuses on speedy, flexible, and collaborative delivery. Agile project management is iterative, allowing teams to continually test and revise
