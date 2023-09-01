@@ -1,10 +1,8 @@
 # PSHS-MC's Reboot Knowledge Hub
 
-## About the modules
-
 These sets of modules are written completely by the student organizers of Reboot. Sources have been precariously picked through by us organizers, particularly from MIT's OpenCourseWare resources. These modules were written in a more verbose manner for supplementary reading alongside the lectures.
 
-If you see this 🤓 emoji, you may click on it to venture through an optional (but not reccomended) reading outside of these modules.
+If you see this 🤓 emoji, you are seeing a signifier for an optional (but not recommended) reading outside of these modules.
 
 ## Getting started
 
@@ -29,7 +27,7 @@ sudo apt upgrade -y
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" 
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 nvm install --lts
 nvm use --lts
