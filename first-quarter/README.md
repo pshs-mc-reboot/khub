@@ -39,3 +39,7 @@ The thing is, the command line offers lots of control over our actions. Addition
 - Versatility: CLI requires the availability of all usecases within the program. Additionally, one only needs one window do perform multiple actions (with most running in the background). Meanwhile, GUIs need multiple interfaces to do a particular job.
 - Computer resources: CLI is usually more efficient and flexible than GUI due to not needing resources to show a graphical interface.
 - Coolness: CLI makes you feel like a hackerman 😎
+
+### Further reading
+
+Now that we've reasoned for our usage of the command line when programming, read [this document](./cli.md) to get to know more about the CLI.

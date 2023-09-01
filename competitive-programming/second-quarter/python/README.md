@@ -132,10 +132,113 @@ print(harmonic_sum(2, 4)) # Prints 1.3333333333
 
 ## Input
 
-To take in input in python
+To take in input in python, use the ```input()``` function. You can pass in a message that appears before the user puts in their input, but this is optional.
+
+```python
+my_input = input() # Stores whatever the user types into the variable 'my_input'
+print(my_input) # Prints the user's input
+my_integer = int(input("Please input an integer.")) # This first prints the message "Please input an integer." then lets the user put in their input, which is then turned into an integer and stored into my_integer.
+print(my_integer) # Prints the user's inputted number
+```
 
 ## If Statements
 
+Conditional statements tell the program to execute certain instructions depending on whether a certain condition is true or false.
+
+```if``` statements allow you to execute certain instructions only if a certain condition is evaluated as true.
+
+```python
+a = 5
+b = 3
+if a > b:
+    # This code only executes if a is greater than b
+    print("a is greater than b!")
+print("Finished executing")
+```
+
+```else``` statements are used alongside ```if``` statements. They are only executed if the condition that is being evaluated turns out to be false.
+
+```python
+a = 5
+b = 3
+if a == b:
+    # This code only executes if the condition "a is equal to b" is true
+    print("a is equal to b!")
+    print("So a - b = 0")
+else:
+    # This code only executes if the condition "a is equal to b" is false
+    print("a is not equal to b :(")
+```
+
 ## For Loops
 
+```for``` loops allow one to repeat certain instructions by going through each indivudal item in a sequence. This sequence can be a range, a list, a string, and many more.
+
+The syntax is as follows:
+
+```python
+for whatever_variable_name in whatever_sequence_of_items
+```
+
+A string is essentially a sequence of characters. We can go through each character of a string using a ```for``` loop!
+
+```python
+my_string = "string"
+for char in my_string:
+    # We are essentially saying, "for each character in this string, do whatever instructions i have in this for loop"
+    print(char)
+    # In this case, my instructions are to print whatever character the loop is on
+# Prints s, t, r, i, n, g 
+```
+
+The ```range``` function allows us to go through a sequence of numbers. It has 3 parameters: the ```start```, the ```stop```, and the ```step```. The only required parameter is the ```stop``` parameter, which defines where the loop should stop. The ```start``` parameter defines where the loop starts, and the ```step``` defines how much we will move after each iteration of the loop.
+
+```python
+for i in range(5):
+    print(i)
+# Prints 0, 1, 2, 3, and 4
+for i in range(1, 6):
+    print(i)
+# Prints 1, 2, 3, 4, and 5
+for i in range(1, 6, 2):
+    print(i)
+# Prints 1, 3, and 5
+for i in range(6, 0, -1):
+    print(i)
+# Prints 6, 5, 4, 3, 2, and 1
+for i in range(6, 0, -2):
+    print(i)
+# Prints 6, 4, 2
+```
+
+Lists are just a sequence of items stored in one variable. We can use a ```for``` loop to go through each item in this sequence.
+
+```python
+my_list = ["Alpha", "Bravo", "Charlie", "Delta"]
+for word in my_list:
+    print(word)
+# Prints Alpha, Bravo, Charlie, Delta
+```
+
 ## While Loops
+
+```while``` loops allow one to repeat instructions as long as a certain condition is evaluated as true. One must make sure that this condition will eventually evaluate to false to avoid an infinite loop.
+
+```python
+a = 5
+while a > 0:
+    # We're saying, "While a is greater than 0, keep repeating these instructions"
+    print(a)
+    a = a - 1 # Decrease the value of a by 1; this ensures we do not have an infinite loop because at some point, the value of a be 0, which is NOT greater than 0 (thus terminating the loop).
+# Prints 5, 4, 3, 2, 1;
+```
+
+This is an example of a loop that goes on forever.
+
+```python
+a = 5
+while a > 0:
+    print(a)
+```
+
+This will never terminate because the value of ```a``` is never modified and is thus always greater than 0. The condition will, therefore, always evaluate as true, and the loop will never end.
