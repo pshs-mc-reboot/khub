@@ -1,4 +1,5 @@
 # Python
+
 For simple problems that don't involve complicated data structures and don't require the program to be very fast, Python is a good choice. Python's syntax is concise and easily readable. In Python, you don't even need to use semicolons!
 
 ## Output
@@ -76,12 +77,13 @@ my_float = 1.12345678
 print(f"{my_float:.3f}") # Print 1.123
 ```
 
-**[🤓 WARNING]** For more info, see the following [cheatsheet](https://fstring.help/cheat/).
+**[🤓 WARNING]:** For more info, see the following [cheatsheet](https://fstring.help/cheat/).
 
 ## Lists
-Python lists[^🤓1] are useful for when you need to access an arbitrary value from the list quickly. You can also append values at the end of a list quickly. However, inserting values in the middle of the list is slow.
 
-[^🤓1]: Technically, Python lists are closer to dynamic arrays than linked lists. If you know C++, Python lists are closer to `std::vector` than `std::list`.
+Python lists are useful for when you need to access an arbitrary value from the list quickly. You can also append values at the end of a list quickly. However, inserting values in the middle of the list is slow.
+
+**[🤓 WARNING]:** Technically, Python lists are closer to dynamic arrays than linked lists. If you know C++, Python lists are closer to `std::vector` than `std::list`.
 
 To represent a list of numbers, we use the following syntax:
 
@@ -112,6 +114,7 @@ print(my_list[-1]) # Prints 9
 ```
 
 ## Functions
+
 Functions are essentially named blocks of code. Functions take in input and spit out an output.
 
 ```python
@@ -129,7 +132,7 @@ print(harmonic_sum(2, 4)) # Prints 1.3333333333
 
 ## Input
 
-To take in input in python 
+To take in input in python
 
 ## If Statements
 
