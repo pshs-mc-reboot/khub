@@ -1,5 +1,11 @@
 # PSHS-MC's Reboot Knowledge Hub
 
+## About the modules
+
+These sets of modules are written completely by the student organizers of Reboot. Sources have been precariously picked through by us organizers, particularly from MIT's OpenCourseWare resources. These modules were written in a more verbose manner for supplementary reading alongside the lectures.
+
+If you see this 🤓 emoji, you may click on it to venture through an optional (but not reccomended) reading outside of these modules.
+
 ## Getting started
 
 We're going to assume that you are using a Unix-esque environment. If you're using Windows, follow [these instructions to set-up your Linux Subsystem](first-quarter/README.md#installing-windows-subsystem-for-linux-2). If you've skimmed this document (or at least, the next lines that follow) and you're not so familiar with the commands used here via the terminal, refer to our [getting comfortable with the command line guide](first-quarter/README.md#getting-comfortable-with-the-command-line).
@@ -54,10 +60,14 @@ Assuming that you've read our [getting comfortable with the command line guide](
 ```bash
 # Run a .js file
 node filename.js
+```
 
+```bash
 # Run a .ts file (without transpiling)
 ts-node filename.ts
+```
 
+```bash
 # Run a .py file
 python3.10 filename.py
 ```
