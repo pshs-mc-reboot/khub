@@ -1,12 +1,8 @@
 # Alexander Cristobal (Alex)
 
-<center>
-
 |  Discord  |       Github        |
 | :-------: | :-----------------: |
 | porksisig | AlexanderPCristobal |
-
-</center>
 
 Hi guys! My name’s Alex, currently in Grade 11 (E, Da, Rb, Gl, G) with Physics as my core and Engineering as my elective :DD. I’ve always liked video games as far as I can remember, which is what made me rlly interested in CS as a whole. I mainly play FPS games like Valorant (peak ascendant, current diamond hmu if u wanna play uwu), and I really like story-driven games like The Last of Us, OneShot, and Undertale, just to name a few. I also rlly like playing table tennis (join pendulum, the ping pong club of pisay :D) and badminton, although I’m still pretty bad at ‘em.
 

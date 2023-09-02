@@ -19,5 +19,8 @@ int main() {
     std::cout << (!false) << std::endl; // true
 
     // Boolean operations can be combined to make more complex operations
-    std::cout << ((true && false) || false) << std::endl; //
+    std::cout << ((true && !false) || false) << std::endl; // true
 }
+
+
+// FOOTNOTE: Every output signified with "false" technically outputs a 0, and output signified with "true" technically outputs 1 due to booleans being rooted in binary.

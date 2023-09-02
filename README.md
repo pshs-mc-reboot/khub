@@ -2,7 +2,7 @@
 
 These sets of modules are written completely by the student organizers of Reboot. Sources have been precariously picked through by us organizers, particularly from MIT's OpenCourseWare resources. These modules were written in a more verbose manner for supplementary reading alongside the lectures.
 
-If you see this 🤓 emoji, you are seeing a signifier for an optional (but not recommended) reading outside of these modules.
+If you see this 🤓 emoji, you are seeing a signifier for an optional (not recommended) reading outside of the scope of our lessons. *Be curious, at your own risk!*
 
 Already know the organizers being introduced in the following section? Jump to the [Getting started guide](#getting-started)
 
@@ -18,6 +18,7 @@ Meet the B2024 & B2025 Organizers of Reboot! 🫵😎👉 🔛🔝
 - [Alexander Cristobal (he/him)](./the-organizers/alexander-cristobal.md)
 - [Krixian Skye Del Rosario (he/him)](./the-organizers/krixian-skye-del-rosario.md)
 - [Randolf Dela Cruz (any/all)](./the-organizers/randolf-dela-cruz.md)
+- [Sam Gianan (she/her)](./the-organizers/sam-gianan.md)
 - [Dieux "Joey" Llanza (he/him)](./the-organizers/joey-dieux-llanza.md)
 - [Diogn Lei Mortera (he/him)](./the-organizers/diogn-lei-mortera.md)
 - [Gian Ong (he/him)](./the-organizers/gian-ong.md)

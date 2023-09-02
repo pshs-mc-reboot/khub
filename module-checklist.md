@@ -31,6 +31,8 @@
 
 ## Reviewed
 
+If you've reviewed a module, please $+1$ to the corresponding checkbox.
+
 - [ ] [Introductory](./README.md)
 - [ ] [First quarter](./first-quarter/README.md)
   - [ ] [Command line interface](./first-quarter/command-line-interface/README.md)
