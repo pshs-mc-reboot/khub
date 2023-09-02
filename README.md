@@ -101,7 +101,7 @@ As for my interests, I'm a very avid gamer, both when it comes to tabletop games
 
 #### Skye's experience with competitive programming
 
-Not gonna lie, I actually haven't had much experience with CompProg until I joined RAM last SY (I discovered it very very indirectly through a friend, actually). I initially just joined the SoftDev division since I didn't think I'd be a very fast coder, but then a few of my friends went CompProg and I decided to try things there too, and they ended up being super fun! Competitions-wise, I've competed in both NOI.ph 2023 and CCC 2023 (ngl, nothing beats the euphoria of correctly solving the problems, even if they're "easy" ones), and I still plan to (hopefully) compete in future CompProg events as well! 
+Not gonna lie, I actually haven't had much experience with CompProg until I joined RAM last SY (I discovered it very very indirectly through a friend, actually). I initially just joined the SoftDev division since I didn't think I'd be a very fast coder, but then a few of my friends went CompProg and I decided to try things there too, and they ended up being super fun! Competitions-wise, I've competed in both NOI.ph 2023 and CCC 2023 (ngl, nothing beats the euphoria of correctly solving the problems, even if they're "easy" ones), and I still plan to (hopefully) compete in future CompProg events as well!
 
 Also, C++ mains wya !!!
 
