@@ -1,8 +1,11 @@
-// This file is an example of how to use namespaces and scope in TypeScript.
+// This file is an example of how to use keywords and operators in TypeScript.
 
 // This line is required to use the global scope.
+// The export keyword is used to make the file a module.
 export {}
 
+// The declare keyword is used to tell TypeScript that the following code already exists.
+// In this case, we're telling TypeScript that the global scope has a String interface.
 declare global {
     interface String {
         /**

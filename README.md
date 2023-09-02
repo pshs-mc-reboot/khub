@@ -213,7 +213,7 @@ I do not have a lot of experience in software development, but I really gave a l
 
 Hello everyone! I'm Joshua from block 11-B. I am currently taking chemistry as my core and biology as my elective. I like to play video games (mainly valorant --> peak diamond currently plat 🫥) and a variety of sports (basketball, swimming, badminton, ping pong, chess(?)). I also play the piano and occasionally make 2d and 3d design projects.
 
-#### Joashua's experience with competitive programming
+#### Joshua's experience with competitive programming
 
 Honestly, I don't really have much experience with competitive programming. I would say that my closest experience to this was trying some simple problems shown to me by my cousin, who loves joining coding competitions. I also able to learn about python and scratch from before I entered Pisay from a book my parents got me, in addition to the Pisay computer science curriculum that taught us other coding languages.
 
@@ -264,6 +264,9 @@ sudo apt install python3.10 -y
 
 # Install Git
 sudo apt install git -y
+
+# Install C++
+sudo apt install g++ -y
 ```
 
 - Clone the repository to a directory in your computer.
@@ -293,6 +296,13 @@ ts-node filename.ts
 ```bash
 # Run a .py file
 python3.10 filename.py
+```
+
+```bash
+# Run a .cpp file
+g++ filename.cpp -o filename.exe
+chmod +x filename.exe
+./filename.exe
 ```
 
 ## Contributing to the repository

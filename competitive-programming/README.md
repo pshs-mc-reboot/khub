@@ -1,33 +1,21 @@
-# Welcome to Competitive Programming!
+# Competitive Programming Guide
 
-## 2nd Quarter Outline
+For the competitive programming track, we aim to achieve the following:
 
-### Python and C++ for competitive programming
+1. Use of Python3.10 and C++20 for solving competitive programming problems
+2. Mastery of the following select topics from the IOI syllabus:
+   1. Algorithmic strategies
+   2. Graph algorithms
+   3. Number theory
 
-Maximum Duration: 4 meetings
+## Upcoming contests
 
-The focus of each meeting is to introduce the students to the specificities, quirks, and advantages of Python 3 and C++ for solving competitive programming problems that ask for certain requirements. The following will be focused on, with the first meeting for each language ending in a problem set that centers around getting practice with the usage of it:
+<center>
 
-- Syntax
-- Paradigms
-- Speed
+| Date | Name                     | Type       | Link |
+| ---- | ------------------------ | ---------- | ---- |
+| 2023 | NOI.PH Abakoda 2023      | Individual | TBA  |
+| 2024 | NOI.PH Eliminations 2024 | Individual | TBA  |
+| 2024 | NOI.PH Finals 2024       | Individual | TBA  |
 
-
-From this point forward, the following topics will be derived from the IOI syllabus that is currently available as of August 2023.
-
-### Algorithmic strategies
-
-Maximum Duration: 3 meetings
-
-The following select topics will be given emphasis:
-
-- Simple loop design strategies
-- Exhaustive search algorithms
-- Greedy algorithms
-- Backtracking
-- Branch-and-bound
-- Dynamic programming
-- Stacks and queues
-- Binary heap data structures
-
-## 3rd Quarter Outline
+</center>

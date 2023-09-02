@@ -11,10 +11,10 @@ int main() {
     // This is the block scope. Everything declared here is accessible from anywhere inside the block.
     {
         int x = 30;
-        std::cout << x << std::endl; // Output: 30
+        std::cout << x << std::endl; // 30
     }
 
-    std::cout << x << std::endl; // Output: 20
+    std::cout << x << std::endl; // 20
 
     return 0;
 }

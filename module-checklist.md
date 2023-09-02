@@ -2,30 +2,31 @@
 
 ## Completed
 
-- [x] [Introductory](./README.md)
+- [ ] [Introductory](./README.md)
 - [x] [First quarter](./first-quarter/README.md)
   - [x] [Command line interface](./first-quarter/command-line-interface/README.md)
+  - [x] [Introduction to computers](./first-quarter/introduction-to-computers/README.md)
   - [x] [Introduction to programming](./first-quarter/introduction-to-programming/README.md)
+    - [ ] Boolean operations
+    - [ ] Control structures
+    - [ ] Functions
+    - [x] Namespaces and scope
+    - [ ] Truthiness and falsiness
+    - [ ] Data types
+    - [ ] Variables
+    - [ ] Keywords and operators
+  - [x] [Object-oriented programming](./first-quarter/object-oriented-programming/README.md)
+    - [ ] Abstraction
+    - [ ] Encapsulation
+    - [ ] Inheritance
+    - [ ] Polymorphism
 - [ ] [Competitive programming](./competitive-programming/README.md)
   - [ ] [Second quarter](./competitive-programming/second-quarter/README.md)
     - [ ] [CPP](./competitive-programming/second-quarter/cpp/README.md)
-    - [x] [Python](./competitive-programming/second-quarter/python/README.md)
-  - [ ] [Third quarter](./competitive-programming/third-quarter/README.md)
-- [x] [Software development](./software-development/README.md)
-  - [x] [Project management](./software-development/project-management/README.md)
-  - [ ] [Project design](./software-development/project-design/README.md)
-
-## Reviewed
-
-- [x] [Introductory](./README.md)
-- [x] [First quarter](./first-quarter/README.md)
-  - [x] [Command line interface](./first-quarter/command-line-interface/README.md)
-  - [ ] [Introduction to programming](./first-quarter/introduction-to-programming/README.md)
-- [ ] [Competitive programming](./competitive-programming/README.md)
-  - [ ] [Second quarter](./competitive-programming/second-quarter/README.md)
-    - [ ] [CPP](./competitive-programming/second-quarter/cpp/README.md)
-    - [x] [Python](./competitive-programming/second-quarter/python/README.md)
+    - [ ] [Python](./competitive-programming/second-quarter/python/README.md)
   - [ ] [Third quarter](./competitive-programming/third-quarter/README.md)
 - [ ] [Software development](./software-development/README.md)
   - [ ] [Project management](./software-development/project-management/README.md)
   - [ ] [Project design](./software-development/project-design/README.md)
+
+## Reviewed

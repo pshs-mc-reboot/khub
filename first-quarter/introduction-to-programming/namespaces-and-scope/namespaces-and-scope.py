@@ -7,8 +7,8 @@ def my_func():
     # This is a local scope. Everything declared inside this function can only be accessed by other things in the function.
     # In Python3.10, you can use the nonlocal keyword to access variables in the parent scope.
     x = 5
-    print(x) # Output: 5
+    print(x) # 5
 
 my_func()
 
-print(x) # Output: 10
+print(x) # 10

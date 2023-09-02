@@ -50,25 +50,25 @@ Namespaces and scope help to organize the code and avoid name conflicts. If you 
 
 There are different types of namespaces and scopes in programming, such as `global`, `local`, `module`, `class`, `function`, etc. Global variables, for instance, can be accessed anywhere in the code, while variables in a function can only be accessed by that function.
 
-```python
-# Python3.10 example
-
-# This is the global namespace and scope. Everything declared here is available to the program
-a = 1
-b = 2
-c = 3
-
-def my_function():
-  # This is the namespace and scope of the "my_function" function. Although we could access the namespace that this resides in, the outside namespace and scope cannot.
-  print(a)  # Will not cause an error but instead print 1
-```
-
 The rules for defining and accessing namespaces and scopes vary depending on the programming language you use. However, some general principles are:
 
 - A name can be defined only once in a namespace or scope.
 - A name can be accessed from within the same namespace or scope, or from a nested (think an entity within an entity) namespace or scope.
 - A name can be hidden or overridden by another name with the same identifier in a more specific namespace or scope (which is done through nesting).
 - A name can be imported or exported from one namespace or scope to another using special keywords or syntax.
+
+## Keywords and operators
+
+Another important concept in programming is the idea of keywords and operators. A keyword is a **reserved word** that has a special meaning in a programming language. An operator is a **symbol that represents an operation** that can be applied to one or more operands.
+
+Keywords and operators help to express and manipulate information in a program. For example, if you want to perform arithmetic operations on numbers, or logical operations on booleans, or string operations on text, you will need to use different types of keywords and operators.
+
+There are different types of keywords and operators in programming, such as `arithmetic`, `comparison`, `logical`, `assignment`, `bitwise`, `string`, `list`, `dictionary`, `object`, etc. The rules for defining and using keywords and operators vary depending on the programming language you use. However, some general principles are:
+
+- A keyword or operator can be used only in certain contexts, such as an expression, a statement, or a declaration.
+- A keyword or operator can be used only with certain types of operands, such as numbers, booleans, strings, lists, etc.
+- A keyword or operator can be combined with other keywords or operators to form more complex expressions or statements.
+- A keyword or operator can be overloaded to perform different operations depending on the type of operands, although this is not always possible.
 
 ## Variables and data types
 
@@ -83,6 +83,43 @@ There are different types of variables and data types in programming, such as `i
 - A variable can be reassigned a different value using the same operator.
 - A variable can have only one data type at a time, but it can change its data type by assigning a value of a different type (at least, in dynamic programming languages).
 - A data type defines what kind of operations can be applied to a variable, such as arithmetic, comparison, concatenation, indexing, slicing, etc.
+
+### Types of programming languages (continued)
+
+As a continuation of the previous section, we will now discuss the different types of programming languages with regards to how it lets the programmer declare variables and data types.
+
+#### Statically-typed languages
+
+Statically-typed languages are languages that require the programmer to declare the type of a variable before it can be used. The compiler or interpreter will then check if the variable is assigned a value of the correct type, and will raise an error if it is not. Some examples of statically-typed languages are C, C++, Java, and Rust.
+
+The main advantages of statically-typed languages are:
+
+- They tend to have fewer runtime errors, as they are detected at compile time.
+- They tend to have better performance, as they are optimized for their target platforms.
+- They tend to have better tooling, as they have more information about the program at compile time.
+
+The main disadvantages of statically-typed languages are:
+
+- They require more time and effort to write and debug, as they have to be recompiled every time a change is made to the source code.
+- They are less flexible than dynamically-typed languages, as they do not allow the programmer to change the type of a variable at runtime.
+- They tend to have a steeper learning curve and more complex syntax than dynamically-typed languages.
+- They tend to have more verbose syntax than dynamically-typed languages.
+
+#### Dynamically-typed languages
+
+Dynamically-typed languages are languages that do not require the programmer to declare the type of a variable before it can be used. Some examples of dynamically-typed languages are Python, Ruby, JavaScript, and PHP.
+
+The main advantages of dynamically-typed languages are:
+
+- They are easier and faster to write and debug, as they do not require compilation and can be modified on the fly.
+- They are more flexible than statically-typed languages, as they allow the programmer to change the type of a variable at runtime.
+- They tend to have a simpler and more expressive syntax than statically-typed languages.
+
+The main disadvantages of dynamically-typed languages are:
+
+- They tend to have more runtime errors, as they are not detected until the code is executed.
+- They tend to run slower and less efficiently than statically-typed languages, as they have to check the type of a variable at runtime.
+- They offer less control over low-level details such as memory management and hardware access.
 
 ### Basic data types
 
@@ -107,9 +144,33 @@ Another important concept related to data types is truthiness and falsiness. Thi
 - The empty set `set()`
 - The special value `None`
 
-#### Operations with booleans
+### Operations with booleans
 
-....
+To combine multiple boolean values or expressions, we can use logical operators. The most common logical operators are `and`, `or`, and `not`. These operators work as follows:
+
+- `and` returns the boolean value that represents true if both operands are true, and the boolean value that represents false otherwise.
+- `or` returns the boolean value that represents true if either operand is true, and the boolean value that represents false otherwise.
+- `not` returns the opposite of the operand, i.e., the boolean value that represents true if the operand is false, and the boolean value that represents false if the operand is true.
+
+For example, we can write something like this in pseudocode:
+
+```python
+a = true
+b = false
+c = a and b # False
+d = a or b  # True
+e = not a   # False
+f = not b   # True
+```
+
+We can also use logical operators to combine more complex expressions, such as comparisons or function calls. For example:
+
+```python
+x = 10
+y = 20
+z = x < y and not (x == y)    # True
+w = x + y > 30 or x * y < 200 # False
+```
 
 ## Control structures and functions
 
