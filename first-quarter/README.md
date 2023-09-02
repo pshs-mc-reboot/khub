@@ -14,7 +14,7 @@ For the first quarter, we aim to achieve the following:
 wsl --install
 ```
 
-- Restart your computer
+- Restart your computer.
 - Switch from WSL1 to WSL2 by entering the following command:
 
 ```powershell
