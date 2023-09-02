@@ -107,10 +107,6 @@ Another important concept related to data types is truthiness and falsiness. Thi
 - The empty set `set()`
 - The special value `None`
 
-Any other value is considered true. This means that you can use any value as a condition in a logical expression, and it will be converted to a boolean value automatically. For example, the following code will print "Hello" if the variable name is not an empty string:
-
-...
-
 #### Operations with booleans
 
 ....

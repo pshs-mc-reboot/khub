@@ -83,7 +83,7 @@ cat ~/.ssh/id_ed25519.pub
 
 And you're done! If you encountered any issues, you may check Github's [SSH troubleshooting](https://docs.github.com/en/authentication/troubleshooting-ssh) page.
 
-### Basic Git commands
+## Basic Git commands
 
 In this section, we will introduce some of the most common Git commands that you can use in your workflow.
 

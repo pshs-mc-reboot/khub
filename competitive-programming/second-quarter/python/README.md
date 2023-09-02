@@ -28,7 +28,7 @@ Notice that you don't need to specify the data type. You don't even need to writ
 The syntax to reassign a new value into an existing variable is the same as the syntax for declaring a variable.
 
 ```python
-my_message = "Hello ComProg world!"
+my_message = "Hello CompProg world!"
 print(my_message) # Prints Hello CompProg world!
 my_message = "Raphael Dylan Dalida is the GOAT"
 print(my_message) # Prints Raphael Dylan Dalida is the GOAT
@@ -141,7 +141,7 @@ def function_name(optional_parameters):
 def internet_person_10_is(description):
     return f"InternetPerson10 is {description}"
 
-print(internet_person_10_is("a GOATed red coder in the Philippines")) # Outputs "InternetPerson10"
+print(internet_person_10_is("a GOATed red coder in the Philippines")) # Outputs "InternetPerson10 is a GOATed red coder in the Philippines"
 ```
 
 This is an example of a function taking in more than one parameter.

@@ -4,7 +4,7 @@ Given that software development is a shared experience, we need to get comfortab
 
 ## Things to consider when picking a PMM
 
-There are a few factors to think about when deciding which PMM to use. It's important to take these factors into considerations since the selected methodology will most likely be used for the entire project.
+There are a few factors to think about when deciding which PMM to use. It's important to take these factors into consideration since the selected methodology will be used for the entire project.
 
 - **Project complexity**: This refers to how challenging the project is in terms of scope, scale, and technical requirements. Some projects are simple and straightforward, while others are complex and involve many uncertainties and risks. The more complex the project, the more flexible and adaptive the methodology should be.
 - **Project specifications**: This refers to how clear and stable the project requirements are. Some projects have well-defined and fixed specifications, while others have vague and changing specifications. The more stable the specifications, the more suitable a linear and sequential methodology is.

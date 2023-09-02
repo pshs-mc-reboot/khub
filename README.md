@@ -77,7 +77,7 @@ Hi guys! I'm Maya, and I go by she/her and other feminine stuff. I really am sor
 
 #### Maya's experience with computer science in general
 
-For ComProg, my only experience was with joining RAM in 2022 when I enjoyed going through the CodeForces starter problems. For SoftDev, my only experience with that was carrying my classmates in CS projects. That and a failed attempt to make a game.
+For CompProg, my only experience was with joining RAM in 2022 when I enjoyed going through the CodeForces starter problems. For SoftDev, my only experience with that was carrying my classmates in CS projects. That and a failed attempt to make a game.
 
 Honestly, I've always really lacked the confidence and motivation of doing something big. If you want some good looking achievements, you have to start at some time, and I'm starting now. I guess I am a late bloomer compared to the rest of the organizers here. But I will make up for that by blooming big.
 

@@ -6,7 +6,7 @@ Agile project management is an iterative and incremental approach to delivering 
 
 The main roles in Scrum are:
 
-- The **product owner**, who represents the voice of the customer and is responsible for defining and prioritizing the product backlog, which is a list of features and requirements for the product.
+- The **product owner**, who represents the voice of the customer and is responsible for defining and prioritizing the features and requirements for the product.
 - The **Scrum master**, who facilitates the Scrum process and helps the team follow the Scrum values, principles, and practices. The Scrum master also removes any impediments that might hinder the team's progress.
 - The **development team**, who are self-organizing and cross-functional professionals who work together to deliver potentially shippable increments of the product at the end of each sprint.
 
