@@ -10,5 +10,3 @@ Personally, I think that I'm capable of solving 3000-level Codeforces problems w
 ## Neomi's experience with software development
 
 Okay, this is a field that I'm fairly confident about—the occasional imposter syndrome aside. I first got my interests in software creation during G10 (Java Swing moment 💀), but it didn't really lead me anywhere. Last 2022 though, I volunteered to be taught and implement the Programming Platform for NOI.PH—I think saying that my roots lie there is an understatement. Eventually my experiences there, as well as the applications I've made for Math Modelling, put enough oomph in my resume that I got into various software development/engineering positions.
-
-![alt text](https://media.discordapp.net/attachments/1144176105020993607/1144192250558021632/IMG_20230822_075059.jpg?width=1186&height=889)

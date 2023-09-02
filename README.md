@@ -6,6 +6,26 @@ If you see this 🤓 emoji, you are seeing a signifier for an optional (but not 
 
 Already know the organizers being introduced in the following section? Jump to the [Getting started guide](#getting-started)
 
+## The Organizers
+
+Meet the B2024 & B2025 Organizers of Reboot! 🫵😎👉 🔛🔝
+
+- **Founder**: [Neomi Mendoza (she/her)](./the-organizers/neomi-mendoza.md)
+- [Maya Bartolabac (she/her)](./the-organizers/maya-bartolabac.md)
+- [Justin Nicolas Camacho (he/him)](./the-organizers/justin-nicolas-camacho.md)
+- [Daniel Jacob Calim (he/him)](./the-organizers/daniel-jacob-calim.md)
+- [Joshua Peyton Chua (he/him)](./the-organizers/joshua-peyton-chua.md)
+- [Alexander Cristobal (he/him)](./the-organizers/alexander-cristobal.md)
+- [Krixian Skye Del Rosario (he/him)](./the-organizers/krixian-skye-del-rosario.md)
+- [Randolf Dela Cruz (any/all)](./the-organizers/randolf-dela-cruz.md)
+- [Dieux "Joey" Llanza (he/him)](./the-organizers/joey-dieux-llanza.md)
+- [Diogn Lei Mortera (he/him)](./the-organizers/diogn-lei-mortera.md)
+- [Gian Ong (he/him)](./the-organizers/gian-ong.md)
+- [Clark Tongco (he/him)](./the-organizers/clark-tongco.md)
+- [Gabee de Vera (he/him)](./the-organizers/gabee-de-vera.md)
+- [Ieuan Vinluan (any/all)](./the-organizers/ieuan-vinluan.md)
+- [Francois Toffer Zingapan (he/him)](./the-organizers/francois-toffer-zingapan.md)
+
 ## Getting started
 
 We're going to assume that you are using a Unix-esque environment. If you're using Windows, follow [these instructions to set-up your Linux Subsystem](first-quarter/README.md#installing-windows-subsystem-for-linux-2). If you've skimmed this document (or at least, the next lines that follow) and you're not so familiar with the commands used here via the terminal, refer to our [getting comfortable with the command line guide](first-quarter/README.md#getting-comfortable-with-the-command-line).
