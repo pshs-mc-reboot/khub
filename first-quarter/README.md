@@ -3,8 +3,7 @@
 For the first quarter, we aim to achieve the following:
 
 1. Expertise in navigating directories through the command line
-2. Collaborative coding with Git
-3. Mastery of fundamental programming concepts
+2. Mastery of fundamental programming concepts
 
 ## Installing Windows Subsystem for Linux 2
 
@@ -42,4 +41,4 @@ The thing is, the command line offers lots of control over our actions. Addition
 
 ### Further reading
 
-Now that we've reasoned for our usage of the command line when programming, read [this document](./cli.md) to get to know more about the CLI.
+Now that we've reasoned for our usage of the command line when programming, read [this document](./command-line-interface/README.md) to get to know more about the CLI.
