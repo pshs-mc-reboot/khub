@@ -14,7 +14,7 @@
     - [ ] Truthiness and falsiness
     - [ ] Data types
     - [ ] Variables
-    - [ ] Keywords and operators
+    - [x] Keywords and operators
 - [ ] [Competitive programming](./competitive-programming/README.md)
   - [ ] [Second quarter](./competitive-programming/second-quarter/README.md)
     - [ ] [CPP](./competitive-programming/second-quarter/cpp/README.md)

@@ -2,6 +2,8 @@
 
 For more complex problems that involve data structures and/or require fast runtimes, C++ is an important tool to have under your belt. Despite being more difficult to program (and debug in) compared to Python, C++ will get you a long way in your Competitive Programming journey. For one, if you're gunning for the IOI, C++ is the *only* language that they allow.
 
+Unlike Python, C++ has a strict type system. In most cases, you must specify the type of the variable you are declaring, the types of the parameters to a function, the return type of a function, among others.
+
 ## Quick Note
 
 When using C++ for competitive programming, the start of my file always includes the following: (this guide assumes that this is on top of your file in the following code snippets below)
@@ -12,6 +14,44 @@ using namespace std;
 ```
 
 It is important to note that `bits/stdc++.h` is a header file that has a lot of functionalities under its belt, and `using namespace std` allows us to not have to write `std::` after keywords like `cout`, `cin`, etc. However, these aren't good coding habits and should only be used in the competitive programming world.
+
+Additionally, snippets below assume that the code is written in the `main` function. The `main` function is the entry point of the program. It is here where you will write the statements of your program. For example, consider the following snippet of code:
+
+```cpp
+int l = 0, r = 100, m;
+int sqrt_arg;
+cin >> sqrt_arg;
+
+while(r - l > 1) {
+    m = (l + r) >> 1;
+    if(m * m > sqrt_arg) r = m;
+    else l = m;
+}
+
+cout << l << endl;
+```
+
+Fully-expanded, this would look like:
+
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int l = 0, r = 100, m;
+    int sqrt_arg;
+    cin >> sqrt_arg;
+
+    while(r - l > 1) {
+        m = (l + r) >> 1;
+        if(m * m > sqrt_arg) r = m;
+        else l = m;
+    }
+
+    cout << l << endl;
+    return 0;
+}
+```
 
 ## Variables
 
@@ -126,7 +166,7 @@ switch (characterInput)
 
 Vectors are oftenly used in competitive programming as a replacement of arrays, as they are more dynamic and can be used in a wider range of scenarios. 
 
-However, when the data has a fixed size, and memory optimization is required, 
+However, when the data has a fixed size, and memory optimization is required, normal c-style arrays may be used.
 
 ## For Loops
 
@@ -181,3 +221,203 @@ do {
 ```
 
 ## Functions
+C++ functions are similar to [Python functions](../python/README.md#Functions). However, C++ functions require you to specify the return type as well as the type of the parameters.
+
+```cpp
+returnType my_function(type1 param1, type2 param2, type3 param3) {
+    // Code
+    return value; // Optional
+}
+```
+
+For Example:
+
+```cpp
+int sum(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    cout << sum(1, 2) << endl; // Outputs 3
+    return 0;
+}
+```
+
+To define a function with no return value, use the keyword `void`:
+
+```cpp
+void describe_dylan(string description) {
+    cout << "Raphael Dylan Dalida is " << description << endl;
+}
+
+int main() {
+    describe_dylan("cool"); // Prints "Raphael Dylan Dalida is cool"
+    describe_dylan("smart"); // Prints "Raphael Dylan Dalida is smart"
+    describe_dylan("now in MIT"); // Prints "Raphael Dylan Dalida is now in MIT"
+    return 0;
+}
+```
+
+### Multiple Outputs
+To return multiple outputs from a function, you could use `std::pair` or `std::tuple`. I prefer the latter since it allows you to include more outputs.
+
+```cpp
+// This function multiplies a 3d vector by a scalar
+tuple<int, int, int> scalar_vector_prod(tuple<int, int, int> a, int s) {
+    // To access the ith item in a tuple (where i starts counting from 0), do std::get<i>(tuple)
+    return {get<0>(a) * s, get<1>(a) * s, get<2>(a) * s};
+}
+
+int main() {
+    int [x, y, z] = scalar_vector_prod({3, 1, 4}, 3);
+
+    // Outputs "< 9, 3, 12 >"
+    cout << "< " << x << ", " << y << ", " << z << " >";
+
+    return 0;
+}
+```
+
+To access the ith item of an `std::tuple`, you do `get<i>(my_tuple)`. **Be careful,** the value you pass in the angled brackets must be a compile-time constant value (i.e., its value must be determined once you compile the program). You cannot pass in a non-const variable since its value may change at runtime. However, you *may* pass an integer literal or a const variable. For instance, the following will fail:
+
+```c++
+tuple<int, int, int> a = {3, 1, 4};
+int a_ind = 2;
+
+cout << get<a_ind>(a) << endl;
+```
+
+However, the following will pass since `a_ind` is constant:
+
+```c++
+tuple<int, int, int> a = {3, 1, 4};
+const int a_ind = 2; // We added const
+
+cout << get<a_ind>(a) << endl; // Prints 4
+```
+
+### Passing Objects by Value
+You may also pass objects into functions. For example, the following function prints the contents of a `std::vector<int>` (i.e., a `vector` of `int`s):
+
+```c++
+void print_vec(vector<int> v) {
+    for(int ve : v) {
+        cout << ve << " ";
+    }
+    
+    cout << endl;
+}
+
+int main() {
+    vector<int> my_vec;
+    my_vec.push_back(1);
+    my_vec.push_back(3);
+    my_vec.push_back(6);
+    print_vec(my_vec); // Prints "1 3 6"
+    return 0;
+}
+```
+
+### Passing Objects by Reference
+While this does work, there's a subtle problem with this implementation. Whenever you pass in a value to a function, c++ **makes a copy of the argument**. In other words, the `print_vec` function actually copies the vector `v`. This is bad if the vector `v` contains a lot of elements (for instance, if it contains `200000` elements).
+
+To tell C++ to not make a copy of the variable, add an ampersand (`&`) at the end of the type.
+
+```c++
+void print_vec(vector<int>& v) { // Add an "&" after "vector<int>"
+    for(int ve : v) {
+        cout << ve << " ";
+    }
+    
+    cout << endl;
+}
+```
+
+If you're not going to modify the argument (and I recommend not modifying the value of the argument), you may add `const` to the start of the parameter type:
+
+```c++
+void print_vec(const vector<int>& v) { // I recommend adding const and "&" for large objects
+    for(int ve : v) {
+        cout << ve << " ";
+    }
+    
+    cout << endl;
+}
+```
+
+I recommend always adding `const` if you're going to use `&`. Due to technical reasons, `c++` will only accept variables as input if you don't add `const`[^1]. However, if you add `const`, you can pass in both variables and expressions. For instance, the following will not work:
+
+[^1]: Technically, `vector<int>&` will accept *l-value* integer vectors as input. Variables are an example of "l-values", while expressions are examples of "r-values". To pass in an *r-value*, you would use a double ampersand (i.e., `vector<int>&&`). However, I recommend just using `const vector<int>&` since that allows both *l-values* and *r-values*.
+
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+
+void print_vec(vector<int>& v) { // No "const" keyword!
+    for(int ve : v) {
+        cout << ve << " ";
+    }
+    
+    cout << endl;
+}
+
+int main() {
+    vector<int> my_range = {1, 3, 6};
+    print_vec(my_range); // This will work since my_range is a variable
+    print_vec({1, 3, 6}); // This will NOT work since "{1, 3, 6}" is an expression
+    
+    return 0;
+}
+```
+
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+
+void print_vec(const vector<int>& v) { // No "const" keyword!
+    for(int ve : v) {
+        cout << ve << " ";
+    }
+    
+    cout << endl;
+}
+
+int main() {
+    vector<int> my_range = {1, 3, 6};
+    print_vec(my_range); // This will work
+    print_vec({1, 3, 6}); // This will work
+    
+    return 0;
+}
+```
+
+### Returning Objects from Functions
+In most cases, you can return an object directly from a function:
+
+```c++
+vector<int> range(int start, int stop, int step) {
+    vector<int> res;
+    
+    for(int i = start; i < stop; i += step) {
+        res.push_back(i);
+    }
+    
+    return res;
+}
+
+void print_vec(const vector<int>& v) {
+    for(int ve : v) {
+        cout << ve << " ";
+    }
+    
+    cout << endl;
+}
+
+int main() {
+    vector<int> my_range = range(2, 10, 3);
+
+    print_vec(my_range);
+
+    return 0;
+}
+```
