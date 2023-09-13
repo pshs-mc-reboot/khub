@@ -62,4 +62,4 @@ On the whole, a stored program computer has four main parts:
 - The **output** is all of the data that is given by the computer to the user in response to certain input.
 - The **central processing unit** (CPU) processes input and returns output through two main parts:
   - The **arithmetic logic unit** (ALU) does mathematical built-in calculation operations.
-  - The **control unit** contains one program counter (something that uses memory-based built-in calculation operations).
+  - The **control unit** contains one program counter (something that uses memory-based built-in calculation operations). This is what controls which program gets executed, either with the use of the control unit itself of the ALU.

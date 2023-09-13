@@ -42,3 +42,13 @@ The thing is, the command line offers lots of control over our actions. Addition
 ### Further reading
 
 Now that we've reasoned for our usage of the command line when programming, read [this document](./command-line-interface/README.md) to get to know more about the CLI.
+
+## Intended flow of topics
+
+Assuming that you would prefer to read the modules in the intended order, below is the ordered list of links to the topics that will be discussed.
+
+1. [Introduction to computers](./introduction-to-computers/README.md)
+2. [Introduction to the command line interface](./command-line-interface/README.md)
+3. [Introduction to programming](./introduction-to-programming/README.md)
+
+Here's to a productive first quarter of learning! Most importantly, have fun!

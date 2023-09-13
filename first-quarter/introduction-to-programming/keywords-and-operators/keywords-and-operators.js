@@ -23,4 +23,8 @@ const my_function = () => {
         console.log(y) // 25
         console.log(x) // 20
     }
+
+    my_other_function()
 }
+
+my_function()

@@ -11,9 +11,9 @@
     - [ ] Control structures
     - [ ] Functions
     - [x] Namespaces and scope
-    - [ ] Truthiness and falsiness
-    - [ ] Data types
-    - [ ] Variables
+    - [x] Truthiness and falsiness
+    - [x] Data types
+    - [x] Variables
     - [x] Keywords and operators
 - [ ] [Competitive programming](./competitive-programming/README.md)
   - [ ] [Second quarter](./competitive-programming/second-quarter/README.md)

@@ -1,3 +1,6 @@
+# Our own additions
+.vscode
+
 # Logs
 logs
 *.log
