@@ -63,6 +63,7 @@ int main() {
 
     // The for statement is used to execute a block of code a certain number of times.
     // It is similar to the while statement, but it is used to execute a block of code while manipulating a certain value.
+    // Additionally, the value that you declare in the first part of the for loop is only accessible within the for loop. Remember scopes?
     for (int i{0}; i < 4; i++) {
         std::cout << "i is less than 4" << std::endl;
     }
